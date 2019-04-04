@@ -1,0 +1,50 @@
+
+Pass by reference and pass by value explanation:
+These two concepts were always a question mark for me, not that I do not understand
+the main thing but how it works in action.
+down I had a scenario to try and tested it both on kotlin and java.
+
+Let me explain a scenario:
+I created a class called Car which has two parameters as color and brand then I created
+a list of two cars and created a function to change the color of a car. The parameters 
+were the car itself and the color.
+I updated the car on index 0 of the cars list and then printed the members of cars list.
+Everything worked as I thought it will the car in the index 0 was updated by the new color.
+Once again just to be 100% sure on this matter I created a variable from car index 0 and
+passed that variable to the function.
+The result on test 2 was also the same as test 1.
+
+this is the function in kotlin for change car color
+
+  fun updateCar(car : Car, color : String){
+    car.color = color
+  }
+
+I tried again with another function just to see how the program reacts.
+
+  fun updateCar(car : Car, newCar : Car){
+    car = newCar
+  }
+
+Obviously this is not possible because here you are changing the parameter it self. This
+will not even compile and will receive an error.
+
+So until now I understand that if I copy an object from a list to a variable and change
+the variable the object in the list will be changed! (I thought this will not happen).
+
+Next Scenario I wanted to test was what if I copy an object from a list to a variable and 
+change it and check to see if are these two objects are equal.
+
+this is the code
+
+  val car = cars[0]
+
+  updateCar(car, "Yellow")
+
+  if (car == cars[0])
+    print("Cars are equal")
+
+So the code ran and it was quite right and the message was printed.
+
+
+
