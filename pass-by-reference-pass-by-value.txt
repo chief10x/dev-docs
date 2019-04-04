@@ -46,5 +46,8 @@ this is the code
 
 So the code ran and it was quite right and the message was printed.
 
+Changing the reference to an object argument inside the method would never affect the 
+original reference. However, it creates a completely new object in the heap space.
+
 
 
