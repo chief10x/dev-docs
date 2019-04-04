@@ -1,0 +1,10 @@
+Vim Cheat Sheet and Coolzies
+
+  Copy, Paste and Delete(Cut)
+    First press v to get in the visual mode
+	*press v to select character.
+	*press shift + v to select line.
+	*press y to copy(y stands for yank).
+	*press d to cut.
+	*press p to paste.
+
