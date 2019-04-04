@@ -1,0 +1,21 @@
++-------------------------------------------------------------------------+
+
+This is a quick hands on tig course 
+
+  DATE = Thu 4 Apr 2019
+  -Typing tig in a repository show all the commit history of the current branch
+  -In the tig view pressing X(shift + x) toggles the commit Id
+  -Press Y to go in to stash view
+  -Pressing R in every view will refresh the current view
+  -Pressing q will close only the current view and pressing Q will close everything
+  -Pressing d on a commit will open the difference view and inside the difference 
+   view pressing [ or ] will decrease and increase the context of the view
+   (This is super cool and usefull)
+  -Pressing s will open the status view which is really usefull for adding and
+   removing the files for stage and commit.
+   -In status view pressing u on any file will toggle it between staged and to commit.
+   -Pressing u on the headlines will move all of the files in the headline.
+   -press ! will revert a file.
+  -Pressing shift + c will commit.
+
++-------------------------------------------------------------------------+
