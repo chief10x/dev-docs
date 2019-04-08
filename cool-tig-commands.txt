@@ -18,4 +18,10 @@ This is a quick hands on tig course
    -press ! will revert a file.
   -Pressing shift + c will commit.
 
+
+  D -> Toggle Date Mode Display
+  A -> Toggle Author Mode Display
+
+  Good TIG Configuration Reference 
+  https://github.com/jonas/tig/blob/master/tigrc
 +-------------------------------------------------------------------------+
