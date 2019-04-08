@@ -1,0 +1,4 @@
+
+command                              	description
+pwd					Show the Current Working directory
+
