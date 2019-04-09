@@ -1,0 +1,50 @@
+In this file I will list some subjects that will be covered about git.
+
+- git init [name of repository]
+	git will create a new empty folder initialized for git.
+
+- git init
+	Init's a repository using the current directory.
+
+- git status
+	Will print the status of the current branch.
+
+- git add [file name]
+	Tracks the file.
+
+- git add .
+	Add all the files but the deleted files.
+
+- git add -A
+	Add all new,modified and deleted files.
+
+- git add -u
+	Add all the already tracked files.
+
+- git commit 
+	Will open the default text editor to provide the commit message.
+
+- git commit -m [message]
+	The commit message will be provided inline.
+
+- git commit -am [message]
+	All the files will be added to commit and the message will be inlined.
+
+- git ls-files 
+	Lists all the files that git is tracking in the current repository.
+
+- git reset HEAD [name of the file]
+	Will un-stage the reqeuested file.
+
+- git checkout -- [name of the file]
+	Removes all the changes.
+
+- git mv [name of the file] [new name]
+	Rename the file.
+	Difference between git rename command and bash rename is when renamed 
+	using git the file will be tracked and the status is "File renamed" but
+	when renamed using bash mv status will be [old file name deleted] and
+	[new file name] added and it's untracked.
+
+* Staged changes are ready to be commited but the non staged changes are only present 
+  in the working directory and not added to git index.
