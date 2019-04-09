@@ -73,12 +73,15 @@ In this file I will list some subjects that will be covered about git.
 - git mv [name of the file] [directory]
 	Moves the file to directory.
 
-
-
-
 * If a file is removes using git rm command the file will be removed totally from the repository and 
 If you try to bring it back using git reset HEAD [name of the file] git will only unstage the deletion
 of the file.You should git checkout -- [name of the file] to revert changes in the repository.
 
 * Staged changes are ready to be commited but the non staged changes are only present 
   in the working directory and not added to git index.
+
+* Alias:To create an alias use the following syntax.
+	git config --global alias.[name of alias] "[git command without the git]"
+  to change or edit the alias go to git config file.
+
+
