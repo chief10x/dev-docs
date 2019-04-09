@@ -36,6 +36,27 @@ In this file I will list some subjects that will be covered about git.
 - git ls-files 
 	Lists all the files that git is tracking in the current repository.
 
+- git log
+	Log the repository commits.
+
+- git log --abbrev-commit
+	Log the repository commits with short commit SHA-1 identifier.
+
+- git log --oneline --graph --decorate
+	Log the commits in a more productive fashion with status of the branches.
+
+- git log --since="3 days ago"
+	Log the commits since 3 days ago.
+
+- git log -- [file name]
+	Log the commits on specific file.
+
+- git log --follow -- [path]
+	Log the commits on a specific file including the renames and everything.
+
+- git show [commit id] 
+	Shows the details about the commit.
+
 - git reset HEAD [name of the file]
 	Will un-stage the reqeuested file.
 
