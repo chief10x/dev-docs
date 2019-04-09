@@ -1,0 +1,28 @@
+
+- git stash
+	Stash all the tracked files.
+
+- git stash -u
+	Include all tracked and untracked files.
+
+- git stash list 
+	Shows all the stashes as list.
+
+- git stash drop
+	Deletes all the stash.
+
+- git stash apply
+	Apply the stash to the file.
+
+- git stash pop 
+	Pop the last stash(Dropping and applying).
+
+- git stash pop stash@{n}
+	Pop the requested stash.
+
+- git stash save "message"
+	Save stash with a message.
+
+- git stash branch [name of the branch] 
+	Save the stash to a new branch
+
