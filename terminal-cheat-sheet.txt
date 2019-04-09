@@ -1,4 +1,40 @@
+command                              	description.
 
-command                              	description
-pwd					Show the Current Working directory
+~ (Called tilde) as a path		Is the home directory of the user.
+pwd					Show the Current Working directory.
 
+unzip [name of the file]		Unzips the file.
+
+ls					List the files.
+ls -a					List all the files including hidden.
+ls -l					List all the files and more detailed.
+cd [path]				Change directory.
+cd ..					Navigate to parent.
+mkdir					Creates a folder.
+mkdir -p				Creates a folder structure.
+
+rm [file]				Remove the file.
+rm -r [path]				Remove the directory.
+rm -f [file]				Force Remove.
+rm -rf [path]				Force Remove directory.
+mv [file] [new name]			Renames the file.
+mv [file] [path]			Moves the file to path.
+cp [file] [path]			Copy file to directory(overwrites).
+cp -r [path] [path]			Copy directory.
+
+uptime					Prints the uptime of the device.
+
+tail [file]				Shows the last 10 lines of the file.
+head [file]				Shows the first 10 lines of the file.
+
+ls Options:
+-a Show all (including hidden)
+-R Recursive list
+-r Reverse order
+-t Sort by last modified
+-S Sort by file size
+-l Long listing format
+-1 One file per line
+-m Comma ­separated output
+-h Readable file sizes
+-Q Quoted output
