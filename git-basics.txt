@@ -21,6 +21,9 @@ In this file I will list some subjects that will be covered about git.
 - git add -u
 	Add all the already tracked files.
 
+- git rm [name of the file]
+	Remove a file which is already tracked by git.
+
 - git commit 
 	Will open the default text editor to provide the commit message.
 
@@ -45,6 +48,16 @@ In this file I will list some subjects that will be covered about git.
 	using git the file will be tracked and the status is "File renamed" but
 	when renamed using bash mv status will be [old file name deleted] and
 	[new file name] added and it's untracked.
+
+- git mv [name of the file] [directory]
+	Moves the file to directory.
+
+
+
+
+* If a file is removes using git rm command the file will be removed totally from the repository and 
+If you try to bring it back using git reset HEAD [name of the file] git will only unstage the deletion
+of the file.You should git checkout -- [name of the file] to revert changes in the repository.
 
 * Staged changes are ready to be commited but the non staged changes are only present 
   in the working directory and not added to git index.
