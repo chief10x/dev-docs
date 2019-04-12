@@ -1,0 +1,37 @@
+git branch -a 
+	Shows all of the local and remote branches.
+
+git branch
+	Shows all local branches.
+
+git branch [name]
+	Creates a new branch.
+
+git checkout -b [name]
+	Creates a branch and then checkout.
+
+git checkout [name]
+	Changes the branch.
+
+git branch -m [old name] [new name]
+	Renames the branch.
+
+git branch -d [name]
+	Removes the branch.
+
+git merge [branch]
+	Merges the current branch with the selected branch.
+
+git merge [branch] --no-ff
+	Merges without the fastforwarading
+
+git remote prune origin
+	Deletes origin branches in your local repository, it does n't affect 
+	the remote branches.
+
+git branch -a --merged
+	Lists branches which are merged in to the current branch.
+
+*Fast forwarding merge is done when no commits are added to the parent branch.
+*Without fast forwarding the merge will be added as a commit message.
+
